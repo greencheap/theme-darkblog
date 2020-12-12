@@ -1,0 +1,23 @@
+{
+    "name":"greencheap/darkblog",
+    "title": "Dark Blog",
+    "description": "",
+    "type": "greencheap-theme",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "homepage": "https://greencheap.net",
+            "name": "GreenCheap",
+            "email": "support@greencheap.net"
+        },
+        {
+            "homepage": "https://berkinaktas.com",
+            "name": "Berkin AKTAŞ",
+            "email": "berkinaktas@icloud.com"
+        }
+    ],
+    "extra": {
+        "image": "image.jpg"
+    }
+}

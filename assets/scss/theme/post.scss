@@ -1,0 +1,39 @@
+/* ==========================================================================
+   5. Single Post - When you click on an individual post
+   ========================================================================== */
+.post {
+    &-template .post {
+        margin-top: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+        &:after {
+            display: none;
+        }
+        &-header {
+            padding: 60px 0;
+        }
+    }
+    &-content img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    &-footer {
+        position: relative;
+        margin: 4rem 0 0 0;
+        padding: 4rem 0 0 0;
+        border-top: $border 1px solid;
+        h4 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+        p {
+            margin: 1rem 0;
+            font-size: 1.4rem;
+            line-height: 1.6em;
+        }
+        .author {
+            margin-right: 180px;
+        }
+    }
+}
